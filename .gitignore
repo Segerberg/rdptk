@@ -128,4 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#
+# data files
+.sav
+.doc
+.docx
+.xls
+.xlsx
+.ppt
+.pptx

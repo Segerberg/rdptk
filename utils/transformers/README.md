@@ -1,8 +1,8 @@
 # Transformers
-##spss2csv
+## spss2csv
 A small util for transforming spss/sas7bdat/stata to csv files with optional metadata extraction. 
 
-####Metadata object description
+#### Metadata object description
 The flag <em>--metadata</em> will extract all available metadata from spss with the help of pyreadstat and store it in a separate json file
 
 The json file will contain the follwing fields:
