@@ -35,3 +35,14 @@ missing values in SAS and STATA. This appears when using user_missing=True in re
 * **variable_storage_width**: a dict with keys being variable names and values being the storage width
 * **variable_display_width**: a dict with keys being variable names and values being the display width
 * **variable_measure**: a dict with keys being variable names and values being the measure: nominal, ordinal, scale or unknown  
+
+## filename.py
+Cleanup a path strings to keep only valid ascii chars
+
+## repeated extensions.py 
+Removes any repeated file extensions from filenames.
+
+* foo.pdf.pdf will result in foo.pdf
+* bar.docx.pdf.pdf will result in bar.docx.pdf
+* baz.warc.gz will remain baz.warc.gz. 
+
